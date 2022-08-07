@@ -13,4 +13,4 @@ password = "".join(random.sample(all,length))
 print("Your password can be = ", password)
 
 with open('password.txt', 'w') as f:
-    f.write("Your password can be = ", password)
+    f.write("Your password can be = "+ password)
